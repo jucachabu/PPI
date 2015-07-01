@@ -7,7 +7,7 @@ public class Usuario {
     private String apellidos;
     private String clave;
     private int perfil;
-    //hola
+   
 
     public Usuario(String IdUsuario, String nombres, String apellidos, String clave, int perfil) {
         this.IdUsuario = IdUsuario;
