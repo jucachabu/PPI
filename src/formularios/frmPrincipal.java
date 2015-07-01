@@ -55,6 +55,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         mnuAyuda = new javax.swing.JMenu();
         mnuAyudaAyuda = new javax.swing.JMenuItem();
         mnuAyudaAcercaDe = new javax.swing.JMenuItem();
+        mnuAyuda1 = new javax.swing.JMenu();
 
         jMenu3.setText("File");
         jMenuBar2.add(jMenu3);
@@ -160,6 +161,10 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(mnuAyuda);
 
+        mnuAyuda1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Log Out.png"))); // NOI18N
+        mnuAyuda1.setText("Salir");
+        jMenuBar1.add(mnuAyuda1);
+
         setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -249,6 +254,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem mnuArchivoSalir;
     private javax.swing.JMenuItem mnuArchivoUsuarios;
     private javax.swing.JMenu mnuAyuda;
+    private javax.swing.JMenu mnuAyuda1;
     private javax.swing.JMenuItem mnuAyudaAcercaDe;
     private javax.swing.JMenuItem mnuAyudaAyuda;
     private javax.swing.JMenu mnuMovimientos;
